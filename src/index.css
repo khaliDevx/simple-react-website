@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+.navbar{
+  background: #333;
+  overflow: hidden;
+  color: #fff;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.logo{
+  width: 20%;
+  font-size: 25px;
+  float: left;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0;
+  color: rgb(100, 193, 255);
+}
+ul{
+  width: 80%;
+  float: left;
+  text-align: left;
+  padding: 0;
+}
+ul a{
+  text-decoration: none;
+  margin: 0 15px;
+  color: #fff;
+}
+.active{
+  color: rgb(89, 203, 255);
+}
+.content{
+  background: #eee;
+  border: #ddd 1px solid;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 15px;
+}
+.img-container{
+  margin: 15px;
+  padding: 15px;
+  background-color: #eee;
+  border: #ddd 1px solid;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.img-container img{
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 5px;
+}
